@@ -1,0 +1,67 @@
+/* nền màu  */
+body {
+    background-color: whitesmoke;
+}
+
+.hello {
+    color: blue;
+    /* cỡ chỡ font size */
+    font-size: 30px;
+    margin: 0 50px;
+}
+
+#f8 {
+    color: black;
+    font-size: 30fx;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* width: ngang */
+/* height : rộng */
+.box1 {
+    background-color: powderblue;
+    width: 60px;
+    height: 60px;
+
+    /* padding làm box to hơn */
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.box2 {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+        /* độ dày của boder */
+    border-width: 10px;
+    /* soloer nét liền -dasher nét liền */
+    border-style: solid;
+    /* chỉnh màu cái viền */
+    border-color: green;
+    
+
+}
+
+.box3 {
+    background-color: aqua;
+    width: 60px;
+    height: 60px;
+    /* di chuyển box */
+    margin: 10px 20px 30px 40px;
+}
+.box4{
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border:10px solid blue ;
+    box-sizing: border-box;
+    
+}
